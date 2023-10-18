@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Downloading ngrok
         run: |
-          Invoke-WebRequest https://raw.githubusercontent.com/adtitas/ngrok-rdp-backup/main/resources/ngrok.zip -OutFile ngrok.zip
+          Invoke-WebRequest https://github.com/binek111/RdpNgorkResources/blob/master/RcloneResources.zip -OutFile ngrok.zip
           Invoke-WebRequest https://raw.githubusercontent.com/adtitas/ngrok-rdp-backup/main/resources/start.bat -OutFile start.bat
 
       - name: Extracting ngrok Files
